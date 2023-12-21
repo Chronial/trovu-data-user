@@ -9,3 +9,163 @@ examplekeyword 2:
   description: My custom shortcut with the keyword examplekeyword and 2 arguments.
   tags:
   - example
+  
+rad< 1:
+  url: http://radl-routing.mdeport.de/cgi-bin/Radlrouting?speed=15&start=<start>&ziel=Stiftsbogen+39
+  title: rad<
+w 1:
+  url: http://de.wikipedia.org/wiki/Special:Search?go=Article&search=<article>
+  title: Wikipedia Article Search (Deutsch)
+bs 1:
+  url: http://bitsnoop.com/search/all/<query>
+  title: BitSnoop (torrent)
+rad 2:
+  url: http://radl-routing.mdeport.de/cgi-bin/Radlrouting?speed=15&start=<start>&ziel=<ziel>
+  title: rad
+mw 1:
+  url: http://mathworld.wolfram.com/search/?query=<query>
+  title: mw
+kong 1:
+  url: http://www.kongregate.com/search?q=<query>
+  title: Kongregate
+ed 1:
+  url: http://encyclopediadramatica.se/Special:Search?go=Article&search=<article>
+  title: Encyclopedia Dramatica Article Search
+  examples:
+    Boxxy: Encyclopedia Dramatica Article about Boxxy
+rad> 1:
+  url: http://radl-routing.mdeport.de/cgi-bin/Radlrouting?speed=15&start=Stiftsbogen+39&ziel=<ziel>
+  title: rad>
+rad 3:
+  url: http://radl-routing.mdeport.de/cgi-bin/Radlrouting?speed=15&start=<start>&via=<via>&ziel=<ziel>
+  title: rad
+wen 1:
+  url: http://en.wikipedia.org/wiki/Special:Search?go=Article&search=<article>
+  title: Wikipedia Article Search (English)
+gde 1:
+  url: https://www.google.com/search?hl=de&q=<query>&ie=utf-8
+  title: Google.com (hl=de)
+  tags:
+  - web search
+  - google
+  examples:
+    berlin: Google search for "berlin"
+tz 1:
+  url: http://www.torrentz.com/search?q=<query>
+  title: Torrentz.com
+  tags:
+  - torrent
+  examples:
+    free games: Search for free games
+acom 1:
+  url: http://www.amazon.com/gp/associates/link-types/searchbox.html?tag=serchilo-20&creative=374001&campaign=211041&adid=13DE5ASBZXECCEGEZXFJ&mode=blended&keyword=<query>&Submit.x=0&Submit.y=0&Submit=Go
+  title: Amazon.com
+  tags:
+  - amazon
+  - shopping
+  - books
+  examples:
+    shakespeare: Search for "shakespeare"
+gh 1:
+  url: https://github.com/search?q=<query>
+  title: GitHub
+  tags:
+  - programming
+  examples:
+    php: Search for "php"
+geiz 1:
+  url: http://geizhals.de/?fs=<Produkt>
+  title: Geizhals Deutschland
+  tags:
+  - geizhals
+  - shopping
+  examples:
+    fernseher: Search for "fernseher"
+leo 1:
+  url: http://dict.leo.org/ende?search=<word>
+  title: German-English (leo.org)
+  tags:
+  - language
+  - dictionary
+  examples:
+    baum: Search for "baum"
+duden 1:
+  url: http://www.duden.de/suchen/dudenonline/<wort>
+  title: Duden
+  tags:
+  - language
+  examples:
+    stuhl: Search for "stuhl"
+lin 1:
+  url: http://www.linguee.com/english-german/search?source=auto&query=<word>
+  title: German-English (Linguee)
+  tags:
+  - language
+  - dictionary
+  - english
+  - german
+  examples:
+    tree: Translation of "tree"
+spl 1:
+  url: http://link.springer.com/search?query=<query>
+  title: SpringerLink
+loe 1:
+  url: https://en.wikipedia.org/wiki/List_of_<title>_episodes
+  title: List of episodes on Wikipedia
+mb 1:
+  url: http://musicbrainz.org/search/textsearch.html?query=<artist>&type=artist&limit=25&handlearguments=1
+  title: Musicbrainz - Music Metabase
+ucs 1:
+  url: http://www.fileformat.info/info/unicode/char/search.htm?q=<query>&preview=entity
+  title: Unicode Character Search, not including Han codepoints
+archive 1:
+  url: 'http://web.archive.org/web/*/<site: {encoding: none}>'
+  title: Archive.org
+  tags:
+  - archive
+  examples:
+    serchilo.net: See old versions of the Serchilo website
+steam 1:
+  url: http://store.steampowered.com/search/?term=<query>
+  title: Steam search
+sg 1:
+  url: https://sourcegraph.com/search?q=<query>
+  title: Sourcegraph
+  examples:
+    sub: Search for the re.sub function of python on sourcegraph
+go 1:
+  url: http://www.google.com/search?ie=UTF-8&hl=en&oe=UTF-8&sourceid=navclient&gfns=1&q=<query>
+  title: google (take best result)
+ahk 1:
+  url: https://www.google.com/search?sitesearch=ahkscript.org&q=<query>
+  title: Autohotkey reference
+man 1:
+  url: http://manpages.ubuntu.com/cgi-bin/search.py?q=<query>
+  title: Ubuntu Man Pages
+  tags:
+  - programming
+  - unix
+  - documentation
+  examples:
+    ls: Lookup man page for "ls"
+pypi 1:
+  url: https://pypi.org/search/?q=<query>
+  title: pypi
+st 1:
+  url: https://www.skytorrents.in/search/all/ed/1/?q=<query>
+  title: SkyTorrents
+bang 1:
+  url: https://www.banggood.com/index.php?com=search&keywords=<query>
+  title: Banggood
+1337 1:
+  url: https://1337x.to/search/<query>/1/
+  title: 1337x
+j 1:
+  url: https://jira.dev.ptv.de/browse/<issue>
+  title: PTV Jira
+msdng 1:
+  url: https://www.google.com/search?hl=en&q=<query>+site:docs.microsoft.com&ie=utf-8
+  title: Google Microsoft Developers Network
+ms 1:
+  url: https://www.google.com/search?ie=UTF-8&hl=en&oe=UTF-8&sourceid=navclient&gfns=1&q=<query>+site:docs.microsoft.com+OR+site:learn.microsoft.com
+  title: Google Microsoft Developers Network best result
