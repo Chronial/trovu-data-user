@@ -3,9 +3,9 @@
 namespaces:
 - o
 - en
-- .us
+- .de
 - github: .
   name: my
-# defaultKeyword: g 
+defaultKeyword: go
 language: en
-country: us
+country: de
